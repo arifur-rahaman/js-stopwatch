@@ -1,6 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --bg-color: #f2e8c6;
+  --primary-color: #dad4b5;
+  --secondary-color: #982b1c;
+  --text-color: #800000;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+/* .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+h1 {
+  color: var(--text-color);
+}
+
+.stopwatch {
+  width: 90%;
+  max-width: 600px;
+  background-color: var(--primary-color);
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(./image/nature.avif); */
+  text-align: center;
+  padding: 40px 0;
+  margin: 200px auto 0;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
+}
+
+.buttons i {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding: 16.5px;
+  margin: 20px 5px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.buttons i:nth-child(2) {
+  transform: scale(1.5);
 }

@@ -7,10 +7,27 @@
       name="description"
       content="This is stopwatch web application was created using vanilla javaScript"
     />
-    <title>Document</title>
+    <title>Stopwatch</title>
     <link rel="stylesheet" href="style.css" />
+
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body>
+  <body class="">
+    <div class="stopwatch">
+      <h1>00:00:00</h1>
+      <div class="buttons">
+        <i class="fa-solid fa-stop"></i>
+        <i class="fa-solid fa-play"></i>
+        <i class="fa-solid fa-rotate-right"></i>
+      </div>
+    </div>
     <script src="/app.js"></script>
   </body>
 </html>

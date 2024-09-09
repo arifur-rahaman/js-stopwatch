@@ -1,4 +1,5 @@
 let [seconds, minutes, hours] = [0, 0, 0];
+
 let displayTime = document.getElementById("displayTime");
 let timer = null;
 
@@ -30,10 +31,14 @@ function watchStart() {
 
 function watchStop() {
   clearInterval(timer);
+  console.log(seconds, minutes, hours);
 }
 
 function watchReset() {
-  clearInterval(timer);
+  if (timer !== null) {
+    clearInterval(timer);
+  }
   let [seconds, minutes, hours] = [0, 0, 0];
   displayTime.innerHTML = "00:00:00";
+  console.log(seconds, minutes, hours);
 }

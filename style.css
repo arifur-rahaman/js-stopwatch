@@ -52,8 +52,14 @@ h1 {
   color: var(--primary-color);
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.9);
   cursor: pointer;
+  transition: all 0.4s;
 }
+/* .buttons i:nth-child(2) {
+  transform: scale(1.3);
+} */
 
-.buttons i:nth-child(2) {
-  transform: scale(1.5);
+.buttons i:hover {
+  background-color: aliceblue;
+  color: crimson;
+  transform: scale(1.2);
 }

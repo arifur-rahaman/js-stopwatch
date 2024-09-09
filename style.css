@@ -10,10 +10,10 @@
 }
 
 :root {
-  --bg-color: #f2e8c6;
-  --primary-color: #dad4b5;
-  --secondary-color: #982b1c;
-  --text-color: #800000;
+  --bg-color: #c8a1e0;
+  --primary-color: #2e073f;
+  --secondary-color: #e2bfd9;
+  --text-color: #ebd3f8;
 }
 
 body {
@@ -50,7 +50,7 @@ h1 {
   margin: 20px 5px;
   background-color: var(--secondary-color);
   color: var(--primary-color);
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.9);
   cursor: pointer;
 }
 

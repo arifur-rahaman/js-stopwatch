@@ -10,9 +10,9 @@
 }
 
 :root {
-  --bg-color: #c8a1e0;
-  --primary-color: #2e073f;
-  --secondary-color: #e2bfd9;
+  --bg-color: #eecad5;
+  --primary-color: #d1e9f6;
+  --secondary-color: #f1d3ce;
   --text-color: #ebd3f8;
 }
 
@@ -34,8 +34,10 @@ h1 {
   width: 90%;
   max-width: 600px;
   background-color: var(--primary-color);
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(./image/nature.avif); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(./image/manha.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
   padding: 40px 0;
   margin: 200px auto 0;
@@ -49,7 +51,9 @@ h1 {
   padding: 16.5px;
   margin: 20px 5px;
   background-color: var(--secondary-color);
-  color: var(--primary-color);
+  /* color: var(--primary-color); */
+  color: #624e88;
+
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.9);
   cursor: pointer;
   transition: all 0.4s;
@@ -59,7 +63,7 @@ h1 {
 } */
 
 .buttons i:hover {
-  background-color: aliceblue;
+  background-color: var(--primary-color);
   color: crimson;
   transform: scale(1.2);
 }

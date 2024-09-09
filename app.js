@@ -38,7 +38,9 @@ function watchReset() {
   if (timer !== null) {
     clearInterval(timer);
   }
-  let [seconds, minutes, hours] = [0, 0, 0];
+  seconds = 0;
+  minutes = 0;
+  hours = 0;
   displayTime.innerHTML = "00:00:00";
   console.log(seconds, minutes, hours);
 }
